@@ -36,7 +36,7 @@ class Github extends Component {
           notFound: data.message,
         });
       })
-      .catch((error) => console.log("THere was a problem in fetching data"));
+      .catch((error) => console.log("fetch data error"));
   }
 
   componentDidMount() {
